@@ -10,5 +10,6 @@ int main(){
         str=str+to_string(rem);
         n=n/2;
     }
+    reverse(str.begin(),str.end());
     cout<<str;
 }
